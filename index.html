@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Currículum de Juan Hernández, Desarrollador Web"
+    />
+    <title>Currículum de Juan Hernández</title>
+    <link rel="stylesheet" href="curriculum.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="navegacion">
+      <button
+        onclick="document.getElementById('perfil').scrollIntoView({behavior:'smooth'})"
+      >
+        <i class="fas fa-user"></i> Perfil
+      </button>
+      <button
+        onclick="document.getElementById('experiencia').scrollIntoView({behavior:'smooth'})"
+      >
+        <i class="fas fa-briefcase"></i> Experiencia
+      </button>
+      <button
+        onclick="document.getElementById('educacion').scrollIntoView({behavior:'smooth'})"
+      >
+        <i class="fas fa-graduation-cap"></i> Educación
+      </button>
+      <button
+        onclick="document.getElementById('habilidades').scrollIntoView({behavior:'smooth'})"
+      >
+        <i class="fas fa-laptop-code"></i> Habilidades
+      </button>
+      <button
+        onclick="document.getElementById('pasatiempos').scrollIntoView({behavior:'smooth'})"
+      >
+        <i class="fas fa-gamepad"></i> Pasatiempos
+      </button>
+      <button
+        onclick="document.getElementById('gustos').scrollIntoView({behavior:'smooth'})"
+      >
+        <i class="fas fa-heart"></i> Gustos
+      </button>
+      <button
+        onclick="document.getElementById('proyectos').scrollIntoView({behavior:'smooth'})"
+      >
+        <i class="fas fa-project-diagram"></i> Proyectos
+      </button>
+      <button
+        onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})"
+      >
+        <i class="fas fa-envelope"></i> Contacto
+      </button>
+    </nav>
+
+    <div class="contenedor-cv">
+      <header class="encabezado">
+        <div class="foto-perfil-container">
+          <img
+            src="./WhatsApp Image 2025-07-08 at 7.31.29 PM.jpeg"
+            alt="Foto de Juan Hernández"
+            class="foto-perfil"
+          />
+          <div class="foto-perfil-borde"></div>
+        </div>
+        <div class="info-perfil">
+          <h1>Juan Hernández</h1>
+          <p class="titulo-profesional">Desarrollador Web en formación</p>
+        </div>
+      </header>
+
+      <section id="perfil" class="seccion">
+        <h2><i class="fas fa-id-card"></i> Perfil Profesional</h2>
+        <p>
+          Soy un estudiante de 16 años apasionado por el deporte, desarrollo web y la tecnología. Actualmente me formo en un programa de educación llamado "Espacio Educa", el cual se basa en brindar las herramientas y el conocimiento a niños y jovenes de sectores populares en relación al diseño y programación que los hacerque a un futuro prometedor. <br>
+Los profesores nos ayudan cada día y nos enseñan sobre los lenguajes de programación, como lo son : "HTML, CSS y JavaScript". Mi aprendizaje en este mundo de la programación han sibo muy favorable ya que hemos presentado diferentes proyectos y actividades en los que he podido aplicar mis conocimientos, obteniendo buenos resultados, como por ejemplo: "El segundo lugar en el Hackathon, organizado por Epacio Educa, en sus diferentes sedes. <br> Ésta oportunidad me hace adentrarme más en este mundo de la tecnología, compartiendo con mis compañeros y profesores, aprendiendo además sobre las habilidades blandas, relaciones interpersonales, compañerismo, oratoria, enter otras. <br>
+Me considero una persona creativa, con capacidad de aprendizaje rápido, muy responsable, apasionado, comprometido y con gran entusiasmo por los nuevos retos tecnológicos.
+        </p>
+      </section>
+
+      <section id="experiencia" class="seccion">
+        <h2><i class="fas fa-briefcase"></i> Experiencia</h2>
+        <div class="item">
+          <h3>Proyectos personales <span>Desarrollador</span></h3>
+          <p class="fecha">2022 - Presente</p>
+          <ul>
+            <li>Desarrollo de sitios web personales y pequeños proyectos.</li>
+            <li>Práctica constante con tecnologías front-end.</li>
+            <li>
+              Participación en comunidades de aprendizaje de programación.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="educacion" class="seccion">
+        <h2><i class="fas fa-graduation-cap"></i> Educación</h2>
+        <div class="item">
+          <h3>Colegio Fe y Alegría María Inmaculada #3</h3>
+          <p class="fecha">2019 - Presente</p>
+          <p>Cursando 4to año en la mención telemática</p>
+        </div>
+        <div class="item">
+          <h3>Cursos en línea <span>Plataformas digitales</span></h3>
+          <p class="fecha">2021 - Presente</p>
+          <ul>
+            <li>Fundamentos de HTML y CSS</li>
+            <li>Introducción a JavaScript</li>
+            <li>Diseño web responsivo</li>
+            <li>Curso de Oratoria</li>
+            <li>Curso de Engidea (Robótica Básica, Diseño Gráfico, Impresión 3D, Programación) </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="habilidades" class="seccion-destacada">
+        <h2><i class="fas fa-laptop-code"></i> Habilidades Técnicas</h2>
+        <div class="skills-container">
+          <div class="skill-card html-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="icon">HTML</div>
+              </div>
+              <div class="card-back">
+                <div class="skill-level">70%</div>
+                <div class="level-text">Nivel Intermedio</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card css-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="icon">CSS</div>
+              </div>
+              <div class="card-back">
+                <div class="skill-level">65%</div>
+                <div class="level-text">Nivel Intermedio</div>
+              </div>
+            </div>
+          </div>
+          <div class="skill-card js-card">
+            <div class="card-inner">
+              <div class="card-front">
+                <div class="icon">JavaScript</div>
+              </div>
+              <div class="card-back">
+                <div class="skill-level">50%</div>
+                <div class="level-text">Nivel Básico</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidadesB" class="seccion-destacada">
+        <h2><i class="fas fa-user-friends"></i> Habilidades Blandas</h2>
+        <div class="contenedor-barras">
+          <div class="barra-habilidad">
+            <div class="etiqueta">Trabajo en equipo</div>
+            <div class="contenedor-progreso">
+              <div class="progreso" style="width: 90%"></div>
+            </div>
+          </div>
+          <div class="barra-habilidad">
+            <div class="etiqueta">Aprendizaje rápido</div>
+            <div class="contenedor-progreso">
+              <div class="progreso" style="width: 95%"></div>
+            </div>
+          </div>
+          <div class="barra-habilidad">
+            <div class="etiqueta">Comunicación efectiva</div>
+            <div class="contenedor-progreso">
+              <div class="progreso" style="width: 85%"></div>
+            </div>
+          </div>
+          <div class="barra-habilidad">
+            <div class="etiqueta">Resolución de problemas</div>
+            <div class="contenedor-progreso">
+              <div class="progreso" style="width: 88%"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="pasatiempos" class="seccion-destacada">
+        <h2><i class="fas fa-gamepad"></i> Pasatiempos</h2>
+        <div class="contenedor-iconos">
+          <div class="tarjeta-pasatiempo">
+            <i class="fas fa-film"></i>
+            <p>Ver películas</p>
+          </div>
+          <div class="tarjeta-pasatiempo">
+            <i class="fas fa-gamepad"></i>
+            <p>Videojuegos</p>
+          </div>
+          <div class="tarjeta-pasatiempo">
+            <i class="fas fa-dumbbell"></i>
+            <p>Ejercicio</p>
+          </div>
+          <div class="tarjeta-pasatiempo">
+            <i class="fas fa-plane"></i>
+            <p>Viajar</p>
+          </div>
+          <div class="tarjeta-pasatiempo">
+            <i class="fas fa-code"></i>
+            <p>Programar</p>
+          </div>
+          <div class="tarjeta-pasatiempo">
+            <i class="fas fa-book"></i>
+            <p>Estudiar</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gustos" class="seccion-destacada">
+        <h2><i class="fas fa-heart"></i> Gustos</h2>
+        <div class="contenedor-gustos">
+          <div class="gusto-item">
+            <i class="fas fa-music"></i>
+            <span>Música variada</span>
+          </div>
+          <div class="gusto-item">
+            <i class="fas fa-utensils"></i>
+            <span>Gastronomía</span>
+          </div>
+          <div class="gusto-item">
+            <i class="fas fa-tv"></i>
+            <span>Cine y series</span>
+          </div>
+          <div class="gusto-item">
+            <i class="fas fa-microchip"></i>
+            <span>Tecnología</span>
+          </div>
+          <div class="gusto-item">
+            <i class="fas fa-gamepad"></i>
+            <span>Videojuegos</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="seccion">
+        <h2><i class="fas fa-project-diagram"></i> Mis Proyectos</h2>
+
+        <div class="contenedor-selector">
+          <button
+            class="selector-proyecto activo"
+            onclick="mostrarProyecto('daka')"
+          >
+            <i class="fas fa-store"></i> P. Daka
+          </button>
+          <button class="selector-proyecto" onclick="mostrarProyecto('perros')">
+            <i class="fas fa-dog"></i> P. Perros
+          </button>
+          <button
+            class="selector-proyecto"
+            onclick="mostrarProyecto('galeria')"
+          >
+            <i class="fas fa-images"></i> Galería
+          </button>
+        </div>
+
+        <div class="contenedor-proyectos">
+          <div id="proyecto-daka" class="tarjeta-proyecto">
+            <div class="imagen-proyecto">
+              <img
+                src="WhatsApp Image 2025-06-27 at 9.12.41 PM.jpeg"
+                alt="Proyecto Daka"
+              />
+            </div>
+            <div class="contenido-proyecto">
+              <h3>Proyecto Daka</h3>
+              <p>
+                Este fue la modelo en donde clone desde mis conocimientos
+                básicos la página oficial de Daka.
+              </p>
+              <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <a href="https://juanchis2603.github.io/Proyecto-Daka/" class="btn-ver-proyecto" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Ver Proyecto
+              </a>
+            </div>
+          </div>
+
+          <div
+            id="proyecto-perros"
+            class="tarjeta-proyecto"
+            style="display: none"
+          >
+            <div class="imagen-proyecto">
+              <img
+                src="WhatsApp Image 2025-06-27 at 9.59.44 PM.jpeg"
+                alt="Proyecto Perros"
+              />
+            </div>
+            <div class="contenido-proyecto">
+              <h3>Perros Super Saiyayin</h3>
+              <p>Esta fue mi página inspirada sobre Perros Super Saiyayin.</p>
+              <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://juanchis2603.github.io/Perros-S.saiyayin/" class="btn-ver-proyecto" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Ver Proyecto
+              </a>
+            </div>
+          </div>
+
+          <div
+            id="proyecto-galeria"
+            class="tarjeta-proyecto"
+            style="display: none"
+          >
+            <div class="imagen-proyecto">
+              <img
+                src="./WhatsApp Image 2025-06-28 at 7.08.45 PM.jpeg"
+                alt="Galería de Imágenes"
+              />
+            </div>
+            <div class="contenido-proyecto">
+              <h3>Galería de Imágenes</h3>
+              <p>
+                Este fue un proyecto basado en una galería de imágenes en donde
+                el usuario puede colocar cualquier imágen en la galería.
+              </p>
+              <div class="tecnologias">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://juanchis2603.github.io/Galer-a-de-Imagenes/" class="btn-ver-proyecto" target="_blank">
+                <i class="fas fa-external-link-alt"></i> Ver Proyecto
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="seccion-contacto">
+        <h2><i class="fas fa-envelope"></i> Contacto</h2>
+        <div class="contenedor-contacto">
+          <div class="contacto-card">
+            <div class="contacto-icono">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contacto-info">
+              <h3>Correo Electrónico</h3>
+              <p>juanmanu2655@gmail.com</p>
+              <a href="mailto:juanmanu2655@gmail.com" class="btn-contacto">
+                <i class="fas fa-paper-plane"></i> Enviar Mensaje
+              </a>
+            </div>
+          </div>
+          <div class="contacto-card">
+            <div class="contacto-icono">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contacto-info">
+              <h3>Teléfono</h3>
+              <p>0412-408-84-31</p>
+            </div>
+          </div>
+          <div class="contacto-card">
+            <div class="contacto-icono">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contacto-info">
+              <h3>Ubicación</h3>
+              <p>
+                Venezuela, Edo. Miranda, Municipio Sucre, Parroquia Petare,
+                Sector La Planada
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="pie-pagina">
+      <div class="contenedor-pie">
+        <p>&copy; 2025 Juan Hernández. Todos los derechos reservados.</p>
+        <div class="redes-pie">
+          <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/login/es" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
